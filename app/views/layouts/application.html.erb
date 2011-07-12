@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<center>
+<h1><font color="Black">HOTEL MANAGEMENT SYSTEM</font></h1>
+<h3>Customer is king </h3>
+</center>   
+        <div id="main_container">
+        <div id="menu">
+        
+        <ul>
+        	<li><%= link_to "Admin", admins_path %></li>
+            <li><%= link_to "Reservation", reservations_path %></li>
+            <li><%= link_to "Employees", employees_path %></li>
+            <li><%= link_to "Store", stores_path %></li>
+            
+        </ul>
+        
+        </div>
+             
+        <div id="columns">
+        	<div class="column_top"></div>
+            <div class="column_container">
+            	
+                
+                <div id="left_column">
+                	<h1>How to reach</h1>
+                    <ul>  
+                        <li><a href="http://maps.google.co.in/">Map route</a></li>
+                        <li><a href="http://kakinada.ap.nic.in/">About Kakinada</a></li>
+                        
+                    </ul>
+                    
+                   <br />
+<br />
+ <h1>Services</h1>
+                    <ul>
+                        <li><%= link_to "customer online reservation", customers_path %></li>
+                        <li><a href="http://larrywellsreview.com/holiday-party-decoration-storage-ideas/">Resorts Decoration</a></li>
+                       
+                    </ul>
+           
+             </div>
+           
+            
+          <div id="right_column">
+             <%= yield %>
+              </div>
+                
+                
+                
+            </div>
+            <div class="column_bottom"></h2></div>
+        </div>
+        
+        
+        
+        
+        </div>
+
+
+
+
+</div>
+</div>
+          
+
+
+
+</body>
+</html>

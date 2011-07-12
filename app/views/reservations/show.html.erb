@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Customer name:</b>
+  <%= @reservation.customer_name %>
+</p>
+
+<p>
+  <b>Check in:</b>
+  <%= @reservation.check_in %>
+</p>
+
+<p>
+  <b>Check out:</b>
+  <%= @reservation.check_out %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%= @reservation.cost %>
+</p>
+
+<p>
+  <b>No of persons:</b>
+  <%= @reservation.no_of_persons %>
+</p>
+
+<p>
+  <b>Amount paid:</b>
+  <%= @reservation.amount_paid %>
+</p>
+
+<p>
+  <b>Balance amountl:</b>
+  <%= @reservation.balance_amountL %>
+</p>
+
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>

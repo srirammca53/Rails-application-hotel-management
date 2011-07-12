@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  customer_name: MyString
+  check_in: MyString
+  check_out: MyString
+  cost: 1
+  no_of_persons: 1
+  amount_paid: MyString
+  balance_amountL: 1
+
+two:
+  customer_name: MyString
+  check_in: MyString
+  check_out: MyString
+  cost: 1
+  no_of_persons: 1
+  amount_paid: MyString
+  balance_amountL: 1

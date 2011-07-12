@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  age: MyString
+  reservation_on: 2011-07-09
+  check_out: 2011-07-09
+  mode_of_payment: MyString
+  amount: MyString
+
+two:
+  name: MyString
+  age: MyString
+  reservation_on: 2011-07-09
+  check_out: 2011-07-09
+  mode_of_payment: MyString
+  amount: MyString

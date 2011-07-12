@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @customer.name %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @customer.age %>
+</p>
+
+<p>
+  <b>Reservation on:</b>
+  <%= @customer.reservation_on %>
+</p>
+
+<p>
+  <b>Check out:</b>
+  <%= @customer.check_out %>
+</p>
+
+<p>
+  <b>Mode of payment:</b>
+  <%= @customer.mode_of_payment %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @customer.amount %>
+</p>
+
+
+<%= link_to 'Edit', edit_customer_path(@customer) %> |
+<%= link_to 'Back', customers_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  item_name: MyString
+  item_id: 1
+  store_cost: 1
+
+two:
+  item_name: MyString
+  item_id: 1
+  store_cost: 1
