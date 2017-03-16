@@ -2,6 +2,7 @@ class CustomersController < ApplicationController
   # GET /customers
   # GET /customers.xml
   def index
+    # To fetch all the customers
     @customers = Customer.all
 
     respond_to do |format|

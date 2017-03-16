@@ -2,6 +2,7 @@ class EmployeesController < ApplicationController
   # GET /employees
   # GET /employees.xml
   def index
+    # To fetch all the employees
     @employees = Employee.all
 
     respond_to do |format|

@@ -2,6 +2,7 @@ class AdminsController < ApplicationController
   # GET /admins
   # GET /admins.xml
   def index
+    # To fetch all the admins 
     @admins = Admin.all
 
     respond_to do |format|

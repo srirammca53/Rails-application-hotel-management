@@ -2,6 +2,7 @@ class ReservationsController < ApplicationController
   # GET /reservations
   # GET /reservations.xml
   def index
+    # To fetch all the reservations
     @reservations = Reservation.all
 
     respond_to do |format|
