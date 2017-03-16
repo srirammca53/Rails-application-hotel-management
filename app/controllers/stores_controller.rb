@@ -2,7 +2,7 @@ class StoresController < ApplicationController
   # GET /stores
   # GET /stores.xml
   def index
-    # To fetch all the stores
+    # To fetch all the stores #1
     @stores = Store.all
 
     respond_to do |format|
